@@ -1,9 +1,13 @@
 def square_array(array)
+  array.map {|n| n*n}
+  
   # Use an Enumerable to square every element in the passed in array
   # Return a new array of the results
 end
 
 def summon_captain_planet(planeteer_calls)
+ array.map {|string|string.upcase}
+ puts "#{string}!"
   # Use an Enumerable to capitalize and add '!' to every element in the passed in array
   # Return a new array of the results
 end
