@@ -6,8 +6,8 @@ def square_array(array)
 end
 
 def summon_captain_planet(planeteer_calls)
- planeteer_calls.each {|string|
- puts "#{string.capitalize()}!"
+ planeteer_calls.each {|string|string.capitalize
+ puts "#{string}!"
  }
   # Use an Enumerable to capitalize and add '!' to every element in the passed in array
   # Return a new array of the results
